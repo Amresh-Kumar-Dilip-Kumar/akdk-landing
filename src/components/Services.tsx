@@ -8,7 +8,7 @@ const Services = () => {
 
     return (
         <section className='max-w-[1440px] mx-auto pt-8'>
-            <h2 className="mb-8 font-heading font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] text-center">
+            <h2 className="mb-8 font-heading font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] text-center">
                 Explore Our Comprehensive Web App Services
             </h2>
             <p className='max-w-4xl mx-auto mb-8 text-lg sm:text-lg md:text-xl leading-relaxed text-gray-500'>

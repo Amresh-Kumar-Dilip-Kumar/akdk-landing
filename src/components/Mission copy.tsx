@@ -5,8 +5,17 @@ export default function Mission() {
     return (
         <section className="pt-8 pb-20 overflow-hidden">
             <div className=" w-full max-w-[1440px] mx-auto px-4">
-                {/* <p className="mb-5 font-heading font-semibold text-xs text-gray-400 text-center uppercase tracking-px">The features that made us special</p> */}
-                <h2 className="mb-20 font-heading font-bold text-3xl sm:text-6xl text-[#000000] text-center">Discover AKDK Digital</h2>
+                <div className='bg-slate-200 p-5'>
+
+                    <p className="mb-5 font-heading font-semibold text-xs text-gray-400 text-center uppercase tracking-px">The features that made us special</p>
+                    <h2 className="mb-20 font-heading font-semibold text-3xl sm:text-6xl text-[#000000] text-center">Discover AKDK Digital</h2>
+
+                    <p className='max-w-4xl mx-auto mb-8 text-lg sm:text-lg md:text-xl leading-relaxed text-gray-500'>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur est sequi voluptatum, illum ad dolorum id tempora et aliquid mollitia sed quia dolores itaque quo sapiente rerum cupiditate voluptas sunt. Sint vel voluptates non deleniti molestias possimus saepe omnis ducimus, fugiat veritatis dolorum, cum repellat nemo, animi optio voluptatem. Fuga?
+
+                    </p>
+                    <div className="p-12"></div>
+                </div>
                 <div className="flex flex-wrap -m-4">
                     <div className="w-full md:w-1/3 p-4">
                         <div className="md:max-w-xs mx-auto ">

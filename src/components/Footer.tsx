@@ -67,7 +67,7 @@ export default function Footer() {
                 <div className="flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
                     <p>© 2025 AKDK Digital. All rights reserved.</p>
                     <div className="flex space-x-4 mt-4 md:mt-0">
-                        <a href="/terms" className="hover:text-orange-500 transition-colors">Terms and Conditions</a>
+                        <a href="/tmcd" className="hover:text-orange-500 transition-colors">Terms and Conditions</a>
                         <a href="/privacy" className="hover:text-orange-500 transition-colors">Privacy Policy</a>
                     </div>
                     <div className="flex space-x-4 mt-4 md:mt-0 text-xl">

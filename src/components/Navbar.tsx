@@ -8,7 +8,7 @@ export default function Navbar() {
 
                     {/* Logo Section */}
                     <div className="flex-1 md:flex md:items-center md:gap-12">
-                        <a className="block text-black" href="#">
+                        <a className="block text-[#000000]" href="#">
                             <span className="sr-only">Home</span>
                             <h1 className="text-4xl font-medium">AKDK Digital</h1>
                         </a>
@@ -19,16 +19,16 @@ export default function Navbar() {
                         <nav aria-label="Global" className="hidden md:block">
                             <ul className="flex items-center gap-8 text-base">
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-orange-600" href="#"> About-us </a>
+                                    <a className="text-gray-500 transition hover:text-orange-600" href="/about-us"> About-us </a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-orange-600" href="#"> Our Services </a>
+                                    <a className="text-gray-500 transition hover:text-orange-600" href="/service"> Our Services </a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-orange-600" href="#"> Project </a>
+                                    <a className="text-gray-500 transition hover:text-orange-600" href="/project"> Portfolio </a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-orange-600" href="#"> Contact Us </a>
+                                    <a className="text-gray-500 transition hover:text-orange-600" href="/contact-us"> Contact Us </a>
                                 </li>
                             </ul>
                         </nav>
