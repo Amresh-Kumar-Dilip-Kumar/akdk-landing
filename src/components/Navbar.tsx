@@ -1,5 +1,7 @@
 // import React from 'react'
 
+import { Link } from "react-router";
+
 export default function Navbar() {
     return (
         <header className="bg-white fixed top-0 left-0 right-0 z-50 shadow-md p-2 font-baloo-bhai-2 w-full">
@@ -8,10 +10,10 @@ export default function Navbar() {
 
                     {/* Logo Section */}
                     <div className="flex-1 md:flex md:items-center md:gap-12">
-                        <a className="block text-[#000000]" href="#">
+                        <Link className="block text-[#000000]" to="/">
                             <span className="sr-only">Home</span>
                             <h1 className="text-4xl font-medium">AKDK Digital</h1>
-                        </a>
+                        </Link>
                     </div>
 
                     {/* Navigation Links */}
@@ -19,16 +21,16 @@ export default function Navbar() {
                         <nav aria-label="Global" className="hidden md:block">
                             <ul className="flex items-center gap-8 text-base">
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-orange-600" href="/about-us"> About-us </a>
+                                    <Link className="text-gray-500 transition hover:text-orange-600" to="/about-us"> About-us </Link>
                                 </li>
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-orange-600" href="/service"> Our Services </a>
+                                    <Link className="text-gray-500 transition hover:text-orange-600" to="/service"> Our Services </Link>
                                 </li>
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-orange-600" href="/project"> Portfolio </a>
+                                    <Link className="text-gray-500 transition hover:text-orange-600" to="/project"> Portfolio </Link>
                                 </li>
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-orange-600" href="/contact-us"> Contact Us </a>
+                                    <Link className="text-gray-500 transition hover:text-orange-600" to="/contact-us"> Contact Us </Link>
                                 </li>
                             </ul>
                         </nav>
@@ -36,19 +38,19 @@ export default function Navbar() {
                         {/* Buttons */}
                         <div className="flex items-center gap-4">
                             <div className="sm:flex sm:gap-4">
-                                <a
+                                <Link
                                     className="rounded-md px-5 py-2.5 text-orange-500 hover:bg-orange-600 hover:text-white text-sm font-normal shadow border border-orange-500"
-                                    href="#"
+                                    to="#"
                                 >
                                     Get Started
-                                </a>
-                                <div className="hidden sm:flex">
-                                    <a
+                                </Link>
+                                `    <div className="hidden sm:flex">
+                                    <Link
                                         className="rounded-md bg-orange-600 px-5 py-2.5 text-sm font-normal hover:bg-orange-500 text-white"
-                                        href="#"
+                                        to="#"
                                     >
                                         Our Services
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 

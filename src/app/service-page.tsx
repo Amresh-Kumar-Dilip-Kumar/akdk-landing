@@ -40,25 +40,25 @@ export default function Service() {
     ];
 
     return (
-        <section className="max-w-[1440px] mx-auto py-12 px-6">
-            <div className='text-center mb-20'>
+        <section className="max-w-[1440px] mx-auto py-16 px-6">
+            <div className='text-center mb-16'>
                 <h2 className="mb-8 font-heading font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#000000]">
                     Our Comprehensive Web App Services
                 </h2>
-                <p className='max-w-4xl mx-auto mb-8 text-lg sm:text-lg md:text-xl leading-relaxed text-gray-500'>
+                <p className='max-w-4xl mx-auto mb-10 text-lg sm:text-lg md:text-xl leading-relaxed text-gray-500'>
                     At AKDK Digital, we offer a range of web app services designed to meet your business needs.
                     Our team of expert developers is dedicated to delivering custom solutions, seamless upgrades,
                     and ongoing support to ensure your web applications are always performing at their best.
                     Discover how we can help you achieve your digital goals.
                 </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 sm:gap-8">
                 {service.map((service, index) => (
-                    <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#000000]/20">
                         <img src={service.image} alt={service.title} className="w-full h-60 sm:h-72 lg:h-80 object-cover" />
                         <div className="p-6 text-center">
-                            <h3 className="text-lg sm:text-xl font-semibold">{service.title}</h3>
-                            <p className="text-gray-600 mt-2 text-sm sm:text-base">{service.description}</p>
+                            <h3 className="text-lg sm:text-xl font-semibold text-gray-800">{service.title}</h3>
+                            <p className="text-gray-600 mt-3 text-sm sm:text-base">{service.description}</p>
                         </div>
                     </div>
                 ))}
