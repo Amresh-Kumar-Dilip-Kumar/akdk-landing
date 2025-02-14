@@ -7,23 +7,23 @@ import Project from './app/project-page.tsx'
 import TMCD from './app/tmcd-page.tsx'
 import Privacy from './app/privacy-page.tsx'
 
-import './App.css'
+// import './App.css'
 
 function App() {
 
   return (
     <>
-       <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout><MainPage /></Layout>} />
-        <Route path="/about-us" element={<Layout><AboutUs /></Layout>} />
-        <Route path="/contact-us" element={<Layout><ContactUs /></Layout>} />
-        <Route path="/service" element={<Layout><Service /></Layout>} />
-        <Route path="/project" element={<Layout><Project /></Layout>} />
-        <Route path="/tmcd" element={<Layout><TMCD /></Layout>} />
-        <Route path="/privacy" element={<Layout><Privacy /></Layout>} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout><MainPage /></Layout>} />
+          <Route path="/about-us" element={<Layout><AboutUs /></Layout>} />
+          <Route path="/contact-us" element={<Layout><ContactUs /></Layout>} />
+          <Route path="/service" element={<Layout><Service /></Layout>} />
+          <Route path="/project" element={<Layout><Project /></Layout>} />
+          <Route path="/tmcd" element={<Layout><TMCD /></Layout>} />
+          <Route path="/privacy" element={<Layout><Privacy /></Layout>} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
