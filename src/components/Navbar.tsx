@@ -5,12 +5,14 @@ import { motion } from "motion/react";
 export default function Navbar() {
     return (
         <motion.header
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
+            // initial={{ opacity: 0, y: -20 }}
+            // animate={{ opacity: 1, y: 0 }}
+            // transition={{ duration: 0.6, ease: "easeOut" }}
             className="bg-white fixed top-0 left-0 right-0 z-50 shadow-md p-2 font-baloo-bhai-2 w-full"
         >
-            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8"
+                data-aos="fade-up"
+            >
                 <div className="flex h-16 items-center justify-between">
 
                     {/* Logo Section */}

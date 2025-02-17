@@ -30,12 +30,18 @@ export default function ContactForm() {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6">
                 {/* Google Map Section */}
                 <div className="w-full">
-                    <iframe
+                    {/* <iframe
                         className="w-full h-[400px] rounded-xl shadow-xl border-2 border-gray-200"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.015217207173!2d-122.3976746846812!3d37.79362227975567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064c2a5289f%3A0x5e2a0b64cd77a2b8!2s123%20Market%20St%20%23400%2C%20San%20Francisco%2C%20CA%2094105%2C%20USA!5e0!3m2!1sen!2sus!4v1617264012101!5m2!1sen!2sus"
                         allowFullScreen
                         loading="lazy"
-                    ></iframe>
+                    ></iframe> */}
+                    <iframe
+                        className="w-full h-[400px] rounded-xl shadow-xl border-2 border-gray-200"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d395.2198753309365!2d81.6250420411519!3d21.246457543528056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd456d116d29%3A0xde610a4386781852!2sAKDK%20Digital!5e0!3m2!1sen!2sin!4v1739782384777!5m2!1sen!2sin"
+                        //@ts-ignore
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
                 {/* Contact Form Section */}

@@ -19,6 +19,9 @@ function App() {
           <Route path="/about-us" element={<Layout><AboutUs /></Layout>} />
           <Route path="/contact-us" element={<Layout><ContactUs /></Layout>} />
           <Route path="/service" element={<Layout><Service /></Layout>} />
+          <Route path="/service/:servicename" element={<Layout>
+            <ServiceDetailPage />
+          </Layout>} />
           <Route path="/project" element={<Layout><Project /></Layout>} />
           <Route path="/tmcd" element={<Layout><TMCD /></Layout>} />
           <Route path="/privacy" element={<Layout><Privacy /></Layout>} />
@@ -32,6 +35,7 @@ export default App
 
 import Navbar from './components/Navbar.tsx'
 import Footer from './components/Footer.tsx'
+import ServiceDetailPage from './app/service-detail-page.tsx'
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
