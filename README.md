@@ -1,3 +1,8 @@
+# Desctiption
+
+ AKDK Digital - Web Agency Landing Page 🚀
+"A modern and responsive landing page for AKDK Digital, built with React, Tailwind CSS, and various UI libraries. I have also integrated AI to enhance the design and functionality, improving my skills in AI-driven development. This project showcases clean design, smooth animations, and optimized performance to create a great first impression for our web development agency. More updates and improvements coming soon!"
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
