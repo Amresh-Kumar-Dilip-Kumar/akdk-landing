@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import Link from 'next/link';
 
 const Services = () => {
     const [activeSlide, setActiveSlide] = useState(1);
@@ -96,11 +97,14 @@ const Services = () => {
 
                             {/* Right Section - Image */}
                             <div className="w-full md:w-1/2 p-8">
+                            
                                 <img
+                                    
                                     className="w-full h-full object-cover rounded-3xl"
                                     src={slides[activeSlide - 1].image} // Use dynamic image based on active slide
                                     alt={`Service Preview ${activeSlide}`}
                                 />
+                                
                             </div>
                         </div>
                     </div>
