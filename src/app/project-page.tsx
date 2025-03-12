@@ -59,7 +59,7 @@ const Project = () => {
 
             <div>
                 {projects.map((project, index) => (
-                    <div key={index} className={`flex flex-col ${index % 2 === 1 ? 'md:flex-row-reverse' : 'md:flex-row'} items-center mb-16 border-b pb-8 gap-6`}>
+                    <div key={index} className={`flex flex-col ${index % 2 === 1 ? 'md:flex-row-reverse' : 'md:flex-row'} items-center mb-16 border-b pb-8 gap-16`}>
                         <div className="md:w-1/2 text-center md:text-left">
                             <h4 className="text-xl sm:text-2xl font-semibold text-gray-800">{project.title}</h4>
                             <p className="text-gray-600 mt-3 text-sm sm:text-base">{project.description}</p>
